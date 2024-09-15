@@ -28,13 +28,3 @@ A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.cspro
 A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.CoreCompileInputs.cache
 A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.exe
 A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.pdb
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.AssemblyReference.cache
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.Form1.resources
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.Properties.Resources.resources
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.GenerateResource.cache
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.CoreCompileInputs.cache
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.exe
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.pdb
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe.config
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe
-C:\БГУИР\5 семестр\Метрология\L1\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.pdb

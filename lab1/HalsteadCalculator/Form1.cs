@@ -11,12 +11,9 @@ namespace HalsteadCalculator
     public partial class Form1 : Form
     {
         public string filePath;
-        private AnalyzeInfo analyzeInfo;
-
         public Form1()
         {
             InitializeComponent();
-            analyzeInfo = new AnalyzeInfo();
         }
 
         public void srcBtn_Click(object sender, EventArgs e)
@@ -29,11 +26,10 @@ namespace HalsteadCalculator
             {
                 startBtn.Enabled = true;
                 filePath = openFileDialog.FileName;
-                DisplayFileContent(filePath);
             }
         }
 
-        private void DisplayFileContent(string filePath)
+        public void AnalyzeFile(string filePath)
         {
             string[] lines = File.ReadAllLines(filePath);
 
@@ -59,44 +55,75 @@ namespace HalsteadCalculator
                     }
                 }
 
-        private void DisplayResults()
-        {
+                // Регулярное выражение для операндов Scala (переменные)
+                MatchCollection operandMatches = Regex.Matches(line, @"([a-zA-Z_\$][a-zA-Z0-9_\$]*)");
+
+                foreach (Match match in operandMatches)
+                {
+                    string operand = match.Value;
+                    if (operandCount.ContainsKey(operand))
+                    {
+                        operandCount[operand]++;
+                    }
+                    else
+                    {
+                        operandCount[operand] = 1;
+                    }
+                }
+            }
+
+            // Формируем статистику
+            int uniqueOperatorCount = operatorCount.Count;
+            int uniqueOperandCount = operandCount.Count;
+            int totalOperatorCount = operatorCount.Values.Sum();
+            int totalOperandCount = operandCount.Values.Sum();
+            double programLength = totalOperatorCount + totalOperandCount;
+            double programVocabulary = uniqueOperatorCount + uniqueOperandCount;
+            double programVolume = programLength * (Math.Log(programVocabulary) / Math.Log(2));
+
             // Выводим статистику в текстовом поле
-            tBoxResult.Text = $"Unique Operators: {analyzeInfo.OperatorCount.Count}\n" +
-                              $"Unique Operands: {analyzeInfo.OperandCount.Count}\n" +
-                              $"Total Operators: {analyzeInfo.OperatorCount.Values.Sum()}\n" +
-                              $"Total Operands: {analyzeInfo.OperandCount.Values.Sum()}\n" +
-                              $"Program Length: {analyzeInfo.ProgramLength}\n" +
-                              $"Program Vocabulary: {analyzeInfo.ProgramVocabulary}\n" +
-                              $"Program Volume: {analyzeInfo.ProgramVolume}\n";
+            tBoxResult.Text = $"Unique Operators: {uniqueOperatorCount}\n" +
+                              $"Unique Operands: {uniqueOperandCount}\n" +
+                              $"Total Operators: {totalOperatorCount}\n" +
+                              $"Total Operands: {totalOperandCount}\n" +
+                              $"Program Length: {programLength}\n" +
+                              $"Program Vocabulary: {programVocabulary}\n" +
+                              $"Program Volume: {programVolume}\n";
 
             // Очистка DataGridView перед заполнением
             dataGridViewOperators.Rows.Clear();
             dataGridViewOperands.Rows.Clear();
 
-            // Добавляем столбцы для dataGridViewOperators
+            // Заполняем DataGridView для операторов
             dataGridViewOperators.ColumnCount = 2;
             dataGridViewOperators.Columns[0].Name = "Operator";
             dataGridViewOperators.Columns[1].Name = "Count";
-
-            // Заполняем DataGridView для операторов
-            foreach (var entry in analyzeInfo.OperatorCount)
+            foreach (var entry in operatorCount)
             {
                 dataGridViewOperators.Rows.Add(entry.Key, entry.Value);
             }
 
-            // Добавляем столбцы для dataGridViewOperands
+            // Заполняем DataGridView для операндов
             dataGridViewOperands.ColumnCount = 2;
             dataGridViewOperands.Columns[0].Name = "Operand";
             dataGridViewOperands.Columns[1].Name = "Count";
-
-            // Заполняем DataGridView для операндов
-            foreach (var entry in analyzeInfo.OperandCount)
+            foreach (var entry in operandCount)
             {
                 dataGridViewOperands.Rows.Add(entry.Key, entry.Value);
             }
         }
 
+
+
+        public void startBtn_Click(object sender, EventArgs e)
+        {
+            var fileName = filePath;
+            AnalyzeFile(fileName);
+        }
+
+        private void dataGridViewOperands_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
-
