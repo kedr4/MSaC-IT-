@@ -18,3 +18,13 @@ A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.GenerateR
 A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.CoreCompileInputs.cache
 A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.exe
 A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.pdb
+A:\bsuir\болтак\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe.config
+A:\bsuir\болтак\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe
+A:\bsuir\болтак\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.pdb
+A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.AssemblyReference.cache
+A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.Form1.resources
+A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.Properties.Resources.resources
+A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.GenerateResource.cache
+A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.CoreCompileInputs.cache
+A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.exe
+A:\bsuir\болтак\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.pdb
