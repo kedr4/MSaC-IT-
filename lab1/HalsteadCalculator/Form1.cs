@@ -35,16 +35,29 @@ namespace HalsteadCalculator
 
         private void DisplayFileContent(string filePath)
         {
-            string fileContent = File.ReadAllText(filePath);
-            CodeRichTextBox.Text = fileContent;
-        }
+            string[] lines = File.ReadAllLines(filePath);
 
-        public void startBtn_Click(object sender, EventArgs e)
-        {
-            var fileName = filePath;
-            analyzeInfo.AnalyzeFile(fileName);
-            DisplayResults();
-        }
+            Dictionary<string, int> operatorCount = new Dictionary<string, int>();
+            Dictionary<string, int> operandCount = new Dictionary<string, int>();
+
+            foreach (string line in lines)
+            {
+                // Регулярное выражение для всех операторов Scala
+                MatchCollection operatorMatches = Regex.Matches(line,
+                    @"(\+|\-|\*|\/|\%|\=\=|\!\=|\>|\<|\>=|\<=|\&&|\|\||!|::|\<\-|\>\>|\<\<|\+=|\-=|\*=|/=|\&|\||\^|\~|\=\>|\:\:|\#|\-\>)");
+
+                foreach (Match match in operatorMatches)
+                {
+                    string op = match.Value;
+                    if (operatorCount.ContainsKey(op))
+                    {
+                        operatorCount[op]++;
+                    }
+                    else
+                    {
+                        operatorCount[op] = 1;
+                    }
+                }
 
         private void DisplayResults()
         {
