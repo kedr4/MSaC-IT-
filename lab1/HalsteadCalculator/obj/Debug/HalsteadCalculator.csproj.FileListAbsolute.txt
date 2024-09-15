@@ -1,0 +1,20 @@
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe.config
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\bin\Debug\HalsteadCalculator.pdb
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.AssemblyReference.cache
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\obj\Debug\HalsteadCalculator.Form1.resources
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\obj\Debug\HalsteadCalculator.Properties.Resources.resources
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.GenerateResource.cache
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\obj\Debug\HalsteadCalculator.exe
+C:\Users\Fansuri Fadel Fitrah\source\repos\HalsteadCalculator\HalsteadCalculator\obj\Debug\HalsteadCalculator.pdb
+A:\bsuir\metro1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe.config
+A:\bsuir\metro1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe
+A:\bsuir\metro1\HalsteadCalculator\bin\Debug\HalsteadCalculator.pdb
+A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.AssemblyReference.cache
+A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.Form1.resources
+A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.Properties.Resources.resources
+A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.GenerateResource.cache
+A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.CoreCompileInputs.cache
+A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.exe
+A:\bsuir\metro1\HalsteadCalculator\obj\Debug\HalsteadCalculator.pdb
