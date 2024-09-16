@@ -17,7 +17,7 @@ namespace HalsteadCalculator
         // Зарезервированные слова и типы для фильтрации
         private static readonly HashSet<string> ReservedWords = new HashSet<string>
         {
-            "object", "def", "val", "Unit", "String", "Int", "Array", "println" // Добавьте сюда другие зарезервированные слова и типы
+            "object", "def", "val", "Unit", "String", "Int", "Array" // Добавьте сюда другие зарезервированные слова и типы
         };
 
         public void AnalyzeFile(string filePath)
@@ -51,7 +51,7 @@ namespace HalsteadCalculator
 
                 // Регулярное выражение для операторов
                 MatchCollection operatorMatches = Regex.Matches(line,
-                    @"(\+|\-|\*|\/|\%|\=\=|\!\=|\>|\<|\>=|\<=|\&&|\|\||!|::|\<\-|\>\>|\<\<|\+=|\-=|\*=|/=|\&|\||\^|\~|\=\>|\:\:|\#|\-\>)");
+          @"(\+=|\-=|\*=|/=|==|\!=|\>=|\<=|\->|\=>|\|\||&&|::|<<|>>|\+|\-|\*|\/|\%|\=|\!|\>|\<|\&|\||\^|\~|\#)");
 
                 foreach (Match match in operatorMatches)
                 {

@@ -38,3 +38,13 @@ C:\БГУИР\5 семестр\Метрология\LAB1\lab1\HalsteadCalculator
 C:\БГУИР\5 семестр\Метрология\LAB1\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe.config
 C:\БГУИР\5 семестр\Метрология\LAB1\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe
 C:\БГУИР\5 семестр\Метрология\LAB1\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.pdb
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe.config
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.exe
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\bin\Debug\HalsteadCalculator.pdb
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.AssemblyReference.cache
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.Form1.resources
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.Properties.Resources.resources
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.GenerateResource.cache
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.csproj.CoreCompileInputs.cache
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.exe
+C:\Users\wotbl\Source\Repos\MSaC-IT-\lab1\HalsteadCalculator\obj\Debug\HalsteadCalculator.pdb
